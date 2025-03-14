@@ -2,6 +2,8 @@
 name = "stm32l476"
 version = "0.1.0"
 edition = "2024"
+description = "Peripheral access API for the STM32L476 microcontroller"
+license = "OBSD"
 
 [dependencies]
 critical-section = { version = "1.0", optional = true }

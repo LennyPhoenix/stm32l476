@@ -1031,7 +1031,7 @@ impl core::fmt::Debug for Dcmi {
 }
 #[doc = "Digital camera interface"]
 pub mod dcmi;
-#[unsafe(no_mangle)]
+#[no_mangle]
 static mut DEVICE_PERIPHERALS: bool = false;
 #[doc = r" All the peripherals."]
 #[allow(non_snake_case)]

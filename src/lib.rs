@@ -1277,4 +1277,3 @@ impl Peripherals {
         }
     }
 }
-
